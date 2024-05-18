@@ -1,0 +1,208 @@
+[
+    {
+        "id": 1,
+        "name": "Photographers Portfolio",
+        "description": "A website created for professional photographers to showcase their work. It includes a user side for accessing and editing data.",
+        "link": "https://github.com/KevinZucca/react-il-mio-fotoalbum",
+        "images": [
+            {
+                "name": "Image 1",
+                "src": "/photographer1.png"
+            },
+            {
+                "name": "Image 2",
+                "src": "https://example.com/image2.jpg"
+            }
+        ],
+        "technologies": [
+            {
+                "name": "Javascript",
+                "logo": "https://th.bing.com/th/id/OIP.KDS4dOHo5NQS-k7xAlRdcQHaHa?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "React",
+                "logo": "https://th.bing.com/th/id/R.2bee11a830bacc5ae9006df56b20c33a?rik=nXUBy4boCTrW8w&pid=ImgRaw&r=0"
+            },
+            {
+                "name": "Tailwind",
+                "logo": "https://th.bing.com/th/id/OIP.AvpmhSP2e8GguzR4CUT5dQHaEy?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "Node.js",
+                "logo": "https://miro.medium.com/max/1080/1*I9lARsrOTJYULH7CFBFXyg.png"
+            },
+            {
+                "name": "MYSQL",
+                "logo": "https://th.bing.com/th/id/R.eb78cd73702abc8de5a14a20e7960187?rik=%2fWh6yuaUMbBhtw&pid=ImgRaw&r=0"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Who Wants to Be a Millionaire",
+        "description": "A replica of the famous quiz game 'Who Wants to Be a Millionaire'.",
+        "link": "/",
+        "images": [
+            {
+                "name": "Image 1",
+                "src": "/millionaire1.png"
+            },
+            {
+                "name": "Image 2",
+                "src": "https://example.com/image4.jpg"
+            }
+        ],
+        "technologies": [
+            {
+                "name": "Javascript",
+                "logo": "https://th.bing.com/th/id/OIP.KDS4dOHo5NQS-k7xAlRdcQHaHa?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "Vue.js",
+                "logo": "https://th.bing.com/th/id/OIP._XGJg-B_TcVHQTS5r8DiowHaGZ?rs=1&pid=ImgDetMain"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Spotify Web Replica",
+        "description": "A frontend replica of Spotify Web.",
+        "link": "https://github.com/KevinZucca/html-css-spotifyweb",
+        "images": [
+            {
+                "name": "Image 1",
+                "src": "spotify1.png"
+            },
+            {
+                "name": "Image 2",
+                "src": "https://example.com/image6.jpg"
+            }
+        ],
+        "technologies": [
+            {
+                "name": "Javscript",
+                "logo": "https://th.bing.com/th/id/OIP.KDS4dOHo5NQS-k7xAlRdcQHaHa?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "Vue.js",
+                "logo": "https://th.bing.com/th/id/OIP._XGJg-B_TcVHQTS5r8DiowHaGZ?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "Bootstrap",
+                "logo": "https://th.bing.com/th/id/OIP.oDkmpM5TPGWwG8e9O8G1sQHaF5?rs=1&pid=ImgDetMain"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Yu-Gi-Oh Cards Collection",
+        "description": "A collection of Yu-Gi-Oh cards using APIs to display a list of cards with all their characteristics.",
+        "link": "https://github.com/KevinZucca/vite-yu-gi-oh",
+        "images": [
+            {
+                "name": "Image 1",
+                "src": "/yu-gi1.png"
+            },
+            {
+                "name": "Image 2",
+                "src": "https://th.bing.com/th/id/OIP.50cX0ecR_wJvj19WqERtkQHaE5?rs=1&pid=ImgDetMain"
+            }
+        ],
+        "technologies": [
+            {
+                "name": "Javscript",
+                "logo": "https://th.bing.com/th/id/OIP.KDS4dOHo5NQS-k7xAlRdcQHaHa?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "Vue.js",
+                "logo": "https://th.bing.com/th/id/OIP._XGJg-B_TcVHQTS5r8DiowHaGZ?rs=1&pid=ImgDetMain"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Netflix Interface Replica",
+        "description": "A replica of the Netflix interface using APIs and Vue.js.",
+        "link": "https://github.com/KevinZucca/vite-boolflix",
+        "images": [
+            {
+                "name": "Image 1",
+                "src": "/boolflix1.png"
+            },
+            {
+                "name": "Image 2",
+                "src": "https://example.com/image10.jpg"
+            }
+        ],
+        "technologies": [
+            {
+                "name": "Javscript",
+                "logo": "https://th.bing.com/th/id/OIP.KDS4dOHo5NQS-k7xAlRdcQHaHa?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "Vue.js",
+                "logo": "https://th.bing.com/th/id/OIP._XGJg-B_TcVHQTS5r8DiowHaGZ?rs=1&pid=ImgDetMain"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Client-Server Interaction Simulator Game",
+        "description": "A game simulating client-server interaction, where the user must identify the APIs requested by users and fill in host and endpoint to solve the requests.",
+        "link": "/",
+        "images": [
+            {
+                "name": "Image 1",
+                "src": "none"
+            }
+        ],
+        "technologies": [
+            {
+                "name": "Javscript",
+                "logo": "https://th.bing.com/th/id/OIP.KDS4dOHo5NQS-k7xAlRdcQHaHa?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "React",
+                "logo": "https://th.bing.com/th/id/R.2bee11a830bacc5ae9006df56b20c33a?rik=nXUBy4boCTrW8w&pid=ImgRaw&r=0"
+            },
+            {
+                "name": "Tailwind",
+                "logo": "https://th.bing.com/th/id/OIP.AvpmhSP2e8GguzR4CUT5dQHaEy?rs=1&pid=ImgDetMain"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "B-Developers",
+        "description": "A platform similar to Fiverr where users can find developers based on specific technologies or tech stacks.",
+        "link": "/",
+        "images": [
+            {
+                "name": "Image 1",
+                "src": "/BDevelopers.jpeg"
+            }
+        ],
+        "technologies": [
+            {
+                "name": "Javscript",
+                "logo": "https://th.bing.com/th/id/OIP.KDS4dOHo5NQS-k7xAlRdcQHaHa?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "Vue.js",
+                "logo": "https://th.bing.com/th/id/OIP._XGJg-B_TcVHQTS5r8DiowHaGZ?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "Bootstrap",
+                "logo": "https://th.bing.com/th/id/OIP.oDkmpM5TPGWwG8e9O8G1sQHaF5?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "PHP",
+                "logo": "https://th.bing.com/th/id/OIP.CmR_xQULrXJrBNo7Q4EUYgAAAA?rs=1&pid=ImgDetMain"
+            },
+            {
+                "name": "MYSQL",
+                "logo": "https://th.bing.com/th/id/R.eb78cd73702abc8de5a14a20e7960187?rik=%2fWh6yuaUMbBhtw&pid=ImgRaw&r=0"
+            }
+        ]
+    }
+]
