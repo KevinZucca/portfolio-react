@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import * as THREE from "three";
 import NET from "vanta/dist/vanta.net.min";
 
 const VantaBackground = () => {
