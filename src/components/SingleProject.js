@@ -36,7 +36,8 @@ const SingleProject = ({ singleProj }) => {
           <Flex direction={{ base: "column", sm: "row" }} height="100%">
             <Image
               objectFit="cover"
-              width={{ base: "100%", sm: "200px" }}
+              // width={{ base: "100%", sm: "200px" }}
+              className="w-1/2 md:w-1/4 lg:w-1/2"
               minHeight="250px"
               src={`${
                 singleProj.images[0].src !== "none"
@@ -46,8 +47,13 @@ const SingleProject = ({ singleProj }) => {
               alt={singleProj.name}
             />
 
-            <Stack flex="1" justify="center" align="center">
-              <CardBody height="50%">
+            <Stack
+              flex="1"
+              justify="center"
+              align="center"
+              className="w-1/2 md:w-3/4 lg:w-1/2"
+            >
+              <CardBody height="50%" className="md:text-sm">
                 <Heading size="md">{singleProj.name}</Heading>
                 <Text py="2" flex="1" height="80%">
                   {singleProj.description}
@@ -66,7 +72,12 @@ const SingleProject = ({ singleProj }) => {
         justifyContent="center"
       >
         {singleProj.technologies.map((technology, index) => (
-          <Box key={index} boxSize="50px" borderRadius="full" overflow="hidden">
+          <Box
+            key={index}
+            borderRadius="full"
+            overflow="hidden"
+            className="w-[50px] md:w-[40px]"
+          >
             <Image
               boxSize="100%"
               objectFit="cover"
