@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "./Form";
+import "../css/collaborate.css";
 
 const Collaborate = () => {
   return (

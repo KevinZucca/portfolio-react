@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import {
   Button,
   FormControl,
@@ -5,33 +6,50 @@ import {
   Input,
   Textarea,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
 
 const Form = () => {
   const [dataInput, setDataInput] = useState(true);
-  const handleSubmit = (event) => {
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    setDataInput(false);
-    setTimeout(() => {
-      setDataInput(true);
-    }, 3000);
+    const formData = new FormData(event.target);
+    const data = {
+      email: formData.get("email"),
+      name: formData.get("name"),
+      text: formData.get("message"),
+    };
+
+    try {
+      const response = await fetch("/.netlify/functions/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        setDataInput(false);
+        setTimeout(() => {
+          setDataInput(true);
+        }, 3000);
+      } else {
+        console.error("Failed to send email");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
 
   return (
     <form onSubmit={handleSubmit}>
       <FormControl isRequired>
-        <FormControl>
-          <FormLabel>Email address</FormLabel>
-          <Input type="email" className="mb-6" />
-        </FormControl>
-        <FormControl>
-          <FormLabel>Your name</FormLabel>
-          <Input className="mb-6" />
-        </FormControl>
-        <FormControl>
-          <FormLabel>Message</FormLabel>
-          <Textarea minHeight="150px" />
-        </FormControl>
+        <FormLabel>Email address</FormLabel>
+        <Input type="email" name="email" className="mb-6" />
+        <FormLabel>Your name</FormLabel>
+        <Input name="name" className="mb-6" />
+        <FormLabel>Message</FormLabel>
+        <Textarea name="message" minHeight="150px" />
         <Button type="submit" id="form-button">
           Send!
         </Button>

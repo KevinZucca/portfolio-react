@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "../json_files/projects.json";
 import SingleProject from "./SingleProject";
+import "../css/projects.css";
 
 const Projects = () => {
   return (
