@@ -45,9 +45,9 @@ const Form = () => {
     <form onSubmit={handleSubmit}>
       <FormControl isRequired>
         <FormLabel>Email address</FormLabel>
-        <Input type="email" name="email" className="mb-6" />
+        <Input type="email" name="email" className="mb-3 md:mb-6" />
         <FormLabel>Your name</FormLabel>
-        <Input name="name" className="mb-6" />
+        <Input name="name" className="mb-3 md:mb-6" />
         <FormLabel>Message</FormLabel>
         <Textarea name="message" minHeight="150px" />
         <Button type="submit" id="form-button">
