@@ -147,8 +147,8 @@
     },
     {
         "id": 6,
-        "name": "Client-Server Interaction Simulator Game",
-        "description": "A game simulating client-server interaction, where the user must identify the APIs requested by users and fill in host and endpoint to solve the requests.",
+        "name": "The Middle Side",
+        "description": "A game simulating client-server interaction, where the user must identify the APIs requested by users and solve the requests.",
         "link": "/",
         "images": [
             {

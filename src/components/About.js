@@ -12,7 +12,7 @@ const About = () => {
         <div className="w-full h-full text-left flex justify-center mt-10">
           <div className="w-full flex flex-col gap-10 p-20">
             <h1 className="text-6xl md:text-9xl text-left">About Me</h1>
-            <p className="text-xl md:text-2xl">
+            <p className="md:text-xl lg:text-2xl">
               "Passionate and highly creative individual with a deep love for
               technology and music. Constantly driven by a curiosity to explore
               and master new aspects of both technology and creative expression.

@@ -33,7 +33,7 @@ const SingleProject = ({ singleProj }) => {
             transition: "all .2s ease-in-out",
           }}
         >
-          <Flex direction={{ base: "column", sm: "row" }} height="100%">
+          <Flex direction={{ base: "row", sm: "row" }} height="100%">
             <Image
               objectFit="cover"
               // width={{ base: "100%", sm: "200px" }}
@@ -53,9 +53,9 @@ const SingleProject = ({ singleProj }) => {
               align="center"
               className="w-1/2 md:w-3/4 lg:w-1/2"
             >
-              <CardBody height="50%" className="md:text-sm">
+              <CardBody overflowY="auto" height="auto">
                 <Heading size="md">{singleProj.name}</Heading>
-                <Text py="2" flex="1" height="80%">
+                <Text className="text-[14px] md:text-[14px] p-2" py="2">
                   {singleProj.description}
                 </Text>
               </CardBody>
