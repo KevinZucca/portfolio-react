@@ -1,5 +1,5 @@
 import React from "react";
-// import VantaBackground from "./VantaBackground";
+import VantaBackground from "./VantaBackground";
 import "../css/home.css";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <>
-      {/* <VantaBackground /> */}
+      <VantaBackground />
       <div className="slide home" id="home">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 h-full">
