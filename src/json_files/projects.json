@@ -153,7 +153,7 @@
         "images": [
             {
                 "name": "Image 1",
-                "src": "none"
+                "src": "/middle-side.png"
             }
         ],
         "technologies": [
@@ -168,40 +168,6 @@
             {
                 "name": "Tailwind",
                 "logo": "https://th.bing.com/th/id/OIP.AvpmhSP2e8GguzR4CUT5dQHaEy?rs=1&pid=ImgDetMain"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "name": "B-Developers",
-        "description": "A platform similar to Fiverr where users can find developers based on specific technologies or tech stacks.",
-        "link": "/",
-        "images": [
-            {
-                "name": "Image 1",
-                "src": "/BDevelopers.jpeg"
-            }
-        ],
-        "technologies": [
-            {
-                "name": "Javscript",
-                "logo": "https://th.bing.com/th/id/OIP.KDS4dOHo5NQS-k7xAlRdcQHaHa?rs=1&pid=ImgDetMain"
-            },
-            {
-                "name": "Vue.js",
-                "logo": "https://th.bing.com/th/id/OIP._XGJg-B_TcVHQTS5r8DiowHaGZ?rs=1&pid=ImgDetMain"
-            },
-            {
-                "name": "Bootstrap",
-                "logo": "https://th.bing.com/th/id/OIP.oDkmpM5TPGWwG8e9O8G1sQHaF5?rs=1&pid=ImgDetMain"
-            },
-            {
-                "name": "PHP",
-                "logo": "https://th.bing.com/th/id/OIP.CmR_xQULrXJrBNo7Q4EUYgAAAA?rs=1&pid=ImgDetMain"
-            },
-            {
-                "name": "MYSQL",
-                "logo": "https://th.bing.com/th/id/R.eb78cd73702abc8de5a14a20e7960187?rik=%2fWh6yuaUMbBhtw&pid=ImgRaw&r=0"
             }
         ]
     }
