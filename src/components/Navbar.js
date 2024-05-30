@@ -26,7 +26,10 @@ const Navbar = () => {
               activeSection === section.name ? "text-white" : ""
             }`}
           >
-            <button onClick={() => handleSectionClicked(section.name)}>
+            <button
+              className={activeSection === section.name ? "text-white" : ""}
+              onClick={() => handleSectionClicked(section.name)}
+            >
               {section.text}
             </button>
           </li>
