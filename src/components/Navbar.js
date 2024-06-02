@@ -1,9 +1,6 @@
-import { useState } from "react";
 import { scrollToComponent } from "../utils/scrollToComponent";
 
 const Navbar = () => {
-  const [activeSection, setActiveSection] = useState("home");
-
   const sections = [
     { name: "home", text: "Home" },
     { name: "projects", text: "Projects" },
@@ -12,7 +9,6 @@ const Navbar = () => {
   ];
 
   function handleSectionClicked(sectionName) {
-    setActiveSection(sectionName);
     scrollToComponent(sectionName);
   }
 
@@ -22,14 +18,9 @@ const Navbar = () => {
         {sections.map((section, index) => (
           <li
             key={index}
-            className={`text-white/50 hover:text-white md:text-2xl ${
-              activeSection === section.name ? "text-white" : ""
-            }`}
+            className={`text-white/50 hover:text-white md:text-2xl`}
           >
-            <button
-              className={activeSection === section.name ? "text-white" : ""}
-              onClick={() => handleSectionClicked(section.name)}
-            >
+            <button onClick={() => handleSectionClicked(section.name)}>
               {section.text}
             </button>
           </li>
