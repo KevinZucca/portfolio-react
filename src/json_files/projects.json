@@ -41,7 +41,7 @@
         "id": 2,
         "name": "Who Wants to Be a Millionaire",
         "description": "A replica of the famous quiz game 'Who Wants to Be a Millionaire'.",
-        "link": "/",
+        "link": "https://github.com/KevinZucca/who-wants-to-be-a-millionaire",
         "images": [
             {
                 "name": "Image 1",
